@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.arsik.a12012021">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.12012021">
+        <activity android:name=".TemplateListActivity"></activity>
+        <activity android:name=".ContractPayActivity" />
+        <activity android:name=".ChoiceCardActivity" />
+        <activity android:name=".PayActivity" />
+        <activity android:name=".ReplenishCardActivity" />
+        <activity android:name=".OperationHistoryActivity" />
+        <activity android:name=".CardsActivity" />
+        <activity android:name=".InfoApplicationActivity" />
+        <activity android:name=".ActivityVisitHistory" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation" />
+        <activity android:name=".BankomatsActivity" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

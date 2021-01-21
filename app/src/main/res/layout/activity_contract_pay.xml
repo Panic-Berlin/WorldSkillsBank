@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContractPayActivity"
+    android:background="@color/cardview_dark_background">
+    <LinearLayout
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/light_black">
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="35dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/people"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200"
+        android:text="Введите номер договора"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:background="@color/gray_contract"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Номер договора"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите карту"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите сумму"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:background="@color/gray_contract"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <EditText
+            android:id="@+id/et_contract_sum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Сумма"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+    <Button
+        android:onClick="onPayConnectionClick"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="Оплатить"/>
+
+</LinearLayout>

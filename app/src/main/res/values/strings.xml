@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">12.01.2021</string>
+    <string name="button_location_text">Отделения и банкоматы</string>
+    <string name="button_course_text">Курсы валют</string>
+    <string name="usd">USD:</string>
+    <string name="eur">EUR:</string>
+    <string name="login_text">ВОЙТИ</string>
+    <string name="buy_text">Покупка</string>
+    <string name="sell_text">Продажа</string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="MyString"><u>Пользовательское соглашение</u></string>
+    <string name="MyTemplate"><u>Смотреть все шаблоны</u></string>
+
+    <string-array name="cards">
+        <item>1234****4321</item>
+        <item>4321****4321</item>
+        <item>1234****1234</item>
+        <item>4321****1234</item>
+    </string-array>
+</resources>
